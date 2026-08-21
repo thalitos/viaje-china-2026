@@ -1,0 +1,282 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Quince dias en China//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:China 2026
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:china2026-0@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260821T004000Z
+DURATION:PT30M
+SUMMARY:✈ Se abre el check-in del CA898
+DESCRIPTION:Air China lo abre normalmente 24 h antes. Localizador FJZLAE.
+  Asientos 35K y 35L ya comprados.
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:Se abre el check-in del CA898
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-1@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260821T200000Z
+DURATION:PT30M
+SUMMARY:⏰ Salir de casa hacia Barajas T1
+DESCRIPTION:El CA898 despega a las 02:40 del sábado. El mostrador cierra
+  60 min antes.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Salir de casa hacia Barajas T1
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-2@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260822T055500Z
+DURATION:PT30M
+SUMMARY:✈ Se abre el check-in del CA8609
+DESCRIPTION:Pekín-Daxing → Zhangjiajie. Localizador QEZ0CC.
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:Se abre el check-in del CA8609
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-3@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260823T020000Z
+DURATION:PT30M
+SUMMARY:🎫 Comprar las entradas de los pandas
+DESCRIPTION:Mini-programa 熊猫谷 en WeChat\, para el 30 de agosto en D
+ ujiangyan. Se agotan con días de antelación.
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:Comprar las entradas de los pandas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-4@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260823T033000Z
+DURATION:PT30M
+SUMMARY:⏰ Salir del hotel hacia Daxing (PKX)
+DESCRIPTION:El vuelo CA8609 sale a las 13:55. El hotel está al lado del 
+ aeropuerto.
+BEGIN:VALARM
+TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:Salir del hotel hacia Daxing (PKX)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-5@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260823T223000Z
+DURATION:PT30M
+SUMMARY:🎟 Parque de Zhangjiajie · franja 07:00–08:00
+DESCRIPTION:Puerta Este\, 15 min a pie. Ventanilla manual 人工窗口 co
+ n el código 726080802039227355 y los dos pasaportes.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Parque de Zhangjiajie · franja 07:00–08:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-6@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260824T231500Z
+DURATION:PT30M
+SUMMARY:🎟 Puerta Sur · franja 08:00–09:00
+DESCRIPTION:Están a unos 35 minutos en coche. Pide el taxi con margen.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Puerta Sur · franja 08:00–09:00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-7@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260825T231500Z
+DURATION:PT30M
+SUMMARY:🎟 Gran Cañón y Puente de Cristal · 08:00–11:59
+DESCRIPTION:Pedido 13419492. Llevar el certificado de discapacidad origin
+ al de Belén: figura como 待核验\, pendiente de verificar.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Gran Cañón y Puente de Cristal · 08:00–11:59
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-8@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260826T120000Z
+DURATION:PT30M
+SUMMARY:🎫 RESERVAR la Ciudad Prohibida
+DESCRIPTION:Se abre 7 días antes a las 20:00 hora china\, para el 2 de s
+ eptiembre. Mini-programa 故宫博物院. Hacen falta los dos números d
+ e pasaporte. Vuela en minutos.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:RESERVAR la Ciudad Prohibida
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-9@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260827T000000Z
+DURATION:PT30M
+SUMMARY:🎟 Montaña Tianmen · Línea B
+DESCRIPTION:Pedido YD2026081717215533. La estación baja del teleférico 
+ está en el centro de la ciudad.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Montaña Tianmen · Línea B
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-10@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260827T081800Z
+DURATION:PT30M
+SUMMARY:🚄 Estar en Zhangjiajie OESTE
+DESCRIPTION:Tren a Furongzhen a las 16:58. 张家界西站\, no la estaci
+ ón central. Control de seguridad a la entrada.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Estar en Zhangjiajie OESTE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-11@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260828T084300Z
+DURATION:PT30M
+SUMMARY:🚄 Estar en la estación de Furongzhen
+DESCRIPTION:Tren a Fenghuang Gucheng a las 17:23.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Estar en la estación de Furongzhen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-12@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260829T051600Z
+DURATION:PT30M
+SUMMARY:🚄 Estar en Fenghuang Gucheng
+DESCRIPTION:Tren a Zhangjiajie Oeste a las 13:56\, y luego el enlace a Ch
+ engdu a las 15:54. Del casco antiguo a la estación hay 20 min en taxi.
+BEGIN:VALARM
+TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:Estar en Fenghuang Gucheng
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-13@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260829T223000Z
+DURATION:PT30M
+SUMMARY:⏰ Tren temprano a Dujiangyan
+DESCRIPTION:Los pandas están activos antes de las 9:00. Después se echa
+ n a dormir.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Tren temprano a Dujiangyan
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-14@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260831T013000Z
+DURATION:PT30M
+SUMMARY:✈ Se abre el check-in del 3U8883
+DESCRIPTION:Chengdu → Pekín del 1 de septiembre. Localizador NJBFWJ.
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:Se abre el check-in del 3U8883
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-15@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260831T231500Z
+DURATION:PT30M
+SUMMARY:⏰ Salir hacia Chengdu-Shuangliu (CTU) T1
+DESCRIPTION:NO es el aeropuerto de Tianfu. Vuelo a las 09:30.
+BEGIN:VALARM
+TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:Salir hacia Chengdu-Shuangliu (CTU) T1
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-16@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260902T000000Z
+DURATION:PT30M
+SUMMARY:🎟 Ciudad Prohibida · llevar los pasaportes
+DESCRIPTION:Sin reserva previa y sin pasaporte físico no se entra. Se re
+ corre de sur a norte y no se puede volver atrás.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Ciudad Prohibida · llevar los pasaportes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-17@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260903T230000Z
+DURATION:PT30M
+SUMMARY:✈ Se abre el check-in del CA865
+DESCRIPTION:Vuelta a Madrid. Localizador FJZLAE. Asientos 35L y 35K.
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:Se abre el check-in del CA865
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-18@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260904T130000Z
+DURATION:PT30M
+SUMMARY:⏰ Hacer las maletas y pedir el taxi
+DESCRIPTION:Mañana hay que salir del hotel a las 03:30.
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:Hacer las maletas y pedir el taxi
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:china2026-19@guia.viaje
+DTSTAMP:20260821T000000Z
+DTSTART:20260904T193000Z
+DURATION:PT30M
+SUMMARY:⏰ Salir del hotel hacia Pekín-Capital
+DESCRIPTION:CA865 a las 07:00 desde la Terminal 3. Tres horas antes en vu
+ elo internacional.
+BEGIN:VALARM
+TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:Salir del hotel hacia Pekín-Capital
+END:VALARM
+END:VEVENT
+END:VCALENDAR

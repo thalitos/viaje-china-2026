@@ -97,6 +97,26 @@ http.createServer((req, res) => {
     });
   }
 
+  // Calendario de avisos. Va con token en la query porque iOS se suscribe
+  // con la URL tal cual y no puede mandar cabeceras.
+  if (url === "/avisos.ics") {
+    const k = new URL(req.url, "http://x").searchParams.get("k") || "";
+    if (!TOKEN || k !== TOKEN) {
+      res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
+      return res.end("no encontrado");
+    }
+    let ics;
+    try { ics = fs.readFileSync(path.join(__dirname, "avisos.ics")); }
+    catch { res.writeHead(404); return res.end(); }
+    res.writeHead(200, {
+      "Content-Type": "text/calendar; charset=utf-8",
+      "Content-Disposition": 'inline; filename="china-2026.ics"',
+      "Cache-Control": "public, max-age=3600",
+      "Access-Control-Allow-Origin": "*"
+    });
+    return res.end(ics);
+  }
+
   if (url === "/api/notes") {
     if (!DATA_FILE) return json(res, 503, { ok: false, error: "sin almacenamiento" });
     if (!TOKEN) return json(res, 503, { ok: false, error: "falta NOTES_TOKEN en el servidor" });
