@@ -1,0 +1,8 @@
+{
+  "name": "viaje-china-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guía de viaje cifrada en el cliente",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}
