@@ -18,8 +18,11 @@ const PORT = process.env.PORT || 3000;
 const TOKEN = process.env.NOTES_TOKEN || "";
 const MAX_BODY = 512 * 1024;
 
+// Railway define RAILWAY_VOLUME_MOUNT_PATH sólo cuando hay un volumen montado
+// de verdad. Sin esa variable, /data existe igualmente pero es efímero.
+const VOLUME = process.env.RAILWAY_VOLUME_MOUNT_PATH || "";
 function pickDataDir() {
-  for (const dir of [process.env.DATA_DIR, "/data", require("node:os").tmpdir()]) {
+  for (const dir of [VOLUME, process.env.DATA_DIR, "/data", require("node:os").tmpdir()]) {
     if (!dir) continue;
     try {
       fs.mkdirSync(dir, { recursive: true });
@@ -31,7 +34,7 @@ function pickDataDir() {
 }
 const DATA_DIR = pickDataDir();
 const DATA_FILE = DATA_DIR ? path.join(DATA_DIR, "notas.json") : null;
-const PERSISTENT = DATA_DIR === "/data" || DATA_DIR === process.env.DATA_DIR;
+const PERSISTENT = Boolean(VOLUME && DATA_DIR === VOLUME) || Boolean(process.env.DATA_DIR && DATA_DIR === process.env.DATA_DIR);
 
 function readStore() {
   try { return JSON.parse(fs.readFileSync(DATA_FILE, "utf8")); }
@@ -89,6 +92,7 @@ http.createServer((req, res) => {
       ok: true,
       almacenamiento: DATA_DIR,
       persistente: PERSISTENT,
+      volumen: VOLUME || "sin montar",
       sincronizacion: TOKEN ? "activa" : "sin NOTES_TOKEN"
     });
   }
